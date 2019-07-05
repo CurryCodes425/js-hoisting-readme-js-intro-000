@@ -13,18 +13,20 @@ function callMe(lyric) {
 
 function crazy() {
   // fix the code in here:
-
-  var thisIsCrazy = function (){
-    console.log("hey!!!");
+  thisIsCrazy();
 
 }
-  thisIsCrazy();
+  function thisIsCrazy() {
+    console.log("hey!!!")
+  }
 }
 
 
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
+
+
 
 
   function sayMy() {
